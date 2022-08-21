@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ffe096-1948-4c07-b2d2-9375755cf339" name="Changes" comment="Editing XPath">
+    <list default="true" id="e3ffe096-1948-4c07-b2d2-9375755cf339" name="Changes" comment="Correcting the function name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImagePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchResultsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661102884064</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correcting the function name">
+      <created>1661103958067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661103958067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding files" />
     <MESSAGE value="Editing XPath" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing XPath" />
+    <MESSAGE value="Correcting the function name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting the function name" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

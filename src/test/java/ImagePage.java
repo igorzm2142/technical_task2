@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class ImagePage {
-    private final ElementsCollection imgCollection = $$x("//div[@class = 'islrc']//div[@jsaction = 'cFWHmd:s370ud;']");
+    private final ElementsCollection imgCollection = $$x("//a[@class='wXeWr islib nfEiy']");
     private final SelenideElement sidebarImg = $x("//div[@class = 'v4dQwb']//img[contains(@src, 'https')]");
 
     public String getPageTitle() {
