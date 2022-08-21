@@ -13,11 +13,11 @@ public class ImageTest extends BaseTest {
     @Test
     public void downloadImg() {
         MainPage mainPage = new MainPage(DEFAULT_URL);
-        Assert.assertEquals(GOOGLE_MAIN_PAGE_TITLE, mainPage.getTitlePage());
+        Assert.assertEquals(GOOGLE_MAIN_PAGE_TITLE, mainPage.getPageTitle());
         mainPage.search(NAME_AND_SURNAME);
 
         SearchResultsPage searchOutputPage = new SearchResultsPage();
-        Assert.assertEquals(SEARCH_OUTPUT_PAGE_TITLE, searchOutputPage.getTitlePage());
+        Assert.assertEquals(SEARCH_OUTPUT_PAGE_TITLE, searchOutputPage.getPageTitle());
         searchOutputPage.clickImageTab();
 
         ImagePage imgPage = new ImagePage();

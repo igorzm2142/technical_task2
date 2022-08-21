@@ -14,7 +14,7 @@ public class ImagePage {
     private final ElementsCollection imgCollection = $$x("//div[@class = 'islrc']//div[@jsaction = 'cFWHmd:s370ud;']");
     private final SelenideElement sidebarImg = $x("//div[@class = 'v4dQwb']//img[contains(@src, 'https')]");
 
-    public String getTitlePage() {
+    public String getPageTitle() {
         return Selenide.title();
     }
 

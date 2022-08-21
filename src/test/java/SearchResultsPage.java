@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.$x;
 public class SearchResultsPage {
     private final SelenideElement textBoxInput = $x("//a[@data-hveid = 'CAEQAw']");
 
-    public String getTitlePage() {
+    public String getPageTitle() {
         return Selenide.title();
     }
 

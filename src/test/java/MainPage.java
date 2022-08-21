@@ -12,7 +12,7 @@ public class MainPage {
         Selenide.open(url);
     }
 
-    public String getTitlePage() {
+    public String getPageTitle() {
         return Selenide.title();
     }
 
