@@ -11,8 +11,8 @@ import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class ImagePage {
-    private final ElementsCollection imgCollection = $$x("/html/body/div[2]/c-wiz/div[3]/div[1]/div/div/div/div[1]/div[1]/span/div[1]/div[1]/div[1]/a[1]/div/img");
-    private final SelenideElement sidebarImg = $x("/html/body/div[2]/c-wiz/div[3]/div[2]/div[3]/div/div/div[3]/div[2]/c-wiz/div/div[1]/div[1]/div[3]/div/a/img");
+    private final ElementsCollection imgCollection = $$x("//div[@class = 'islrc']//div[@jsaction = 'cFWHmd:s370ud;']");
+    private final SelenideElement sidebarImg = $x("//div[@class = 'v4dQwb']//img[contains(@src, 'https')]");
 
     public String getTitlePage() {
         return Selenide.title();

@@ -26,6 +26,7 @@ public class ImageTest extends BaseTest {
         //Assert.assertEquals(IMAGE_PAGE_TITLE, imgPage.getTitlePage());
         imgPage.clickFirstImg();
 
+
         try {
             imgPage.downloadImg();
         } catch (IOException e) {

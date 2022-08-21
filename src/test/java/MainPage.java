@@ -6,8 +6,7 @@ import org.openqa.selenium.Keys;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class MainPage {
-    private final SelenideElement textBoxInput = $x(
-            "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input");
+    private final SelenideElement textBoxInput = $x("//input[@class = 'gLFyf gsfi'][@maxlength = '2048']");
 
     public MainPage(String url) {
         Selenide.open(url);
